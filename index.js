@@ -4,7 +4,44 @@ const inquirer = require('inquirer');
 const genMarkdown = require("./generateMarkdown");
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+    {type: "input",
+    message:"",
+    name:"",
+    },
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
