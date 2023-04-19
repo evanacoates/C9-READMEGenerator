@@ -6,16 +6,17 @@ const genMarkdown = require("./generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type: "input",
+    type: "input",
     message:"What is your project titled?",
     name:"title",
     },
     {
-        type: "input",
+    type: "input",
     message:"How would you describe your application?",
     name:"description",
     },
-    {type: "input",
+    {
+    type: "input",
     message:"How is your application installed?",
     name:"installation",
     },
@@ -37,7 +38,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data)
+}
 
 // TODO: Create a function to initialize app
 function init() {}
