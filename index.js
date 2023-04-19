@@ -5,11 +5,13 @@ const genMarkdown = require("./generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {type: "input",
+    {
+        type: "input",
     message:"What is your project titled?",
     name:"title",
     },
-    {type: "input",
+    {
+        type: "input",
     message:"How would you describe your application?",
     name:"description",
     },
@@ -17,15 +19,18 @@ const questions = [
     message:"How is your application installed?",
     name:"installation",
     },
-    {type: "input",
+    {
+    type: "input",
     message:"How is our application used?",
     name:"usage",
     },
-    {type: "input",
+    {
+    type: "input",
     message:"Who contributed to the application?",
     name:"contributions",
     },
-    {type: "input",
+    {
+    type: "input",
     message:"What are the test instructions for your application?",
     name:"tests",
     }
